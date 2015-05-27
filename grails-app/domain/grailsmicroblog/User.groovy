@@ -6,6 +6,7 @@ class User {
 	String username
 	String email
 	String password
+	static hasMany = [posts : Post]
 	
 	String toString() { fullname }
 
